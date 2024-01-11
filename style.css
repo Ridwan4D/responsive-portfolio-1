@@ -247,7 +247,7 @@ main section {
     font-weight: 700;
 }
 
-.contacts input {
+.contacts input,.contacts textarea {
     width: 100%;
     padding: 15px 30px;
     margin-top: 11px;
@@ -257,13 +257,8 @@ main section {
     display: block;
 }
 
-.contacts textarea {
-    width: 100%;
+.contacts textarea{
     margin-bottom: 15px;
-    padding: 15px 30px;
-    margin-top: 11px;
-    border-radius: 5px;
-    border: 0;
 }
 
 .icon-div img {
