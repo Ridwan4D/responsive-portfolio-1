@@ -335,13 +335,16 @@ main section {
     .resume .col-title,.contacts .title{
         font-size: 25px;
     }
-
+    .resume .download-cv{
+        margin-top: 15px;
+    }
     .banner,nav,nav>ul,.skill-container,.resume-container,.contacts,.about-info-container{
         flex-direction: column;
     }
 
     .card {
         padding: 20px;
+        margin-right: 0;
         width: auto;
     }
 
