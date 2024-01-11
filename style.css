@@ -131,7 +131,7 @@ main section {
 
 /* about section start here */
 .about {
-    padding: 130px 150px;
+    padding: 65px 150px 100px;
     border-radius: 10px;
     background: #FFF8F3;
 }
@@ -210,7 +210,7 @@ main section {
 }
 
 .resume-description,
-.contace-description {
+.contact-description {
     /* contact description here*/
     color: #757575;
     font-size: 16px;
@@ -322,7 +322,7 @@ main section {
         padding: 0 10px;
     }
     .card-description,#todo-description{
-        font-size: 15px;
+        font-size: 13px;
     }
     .footer{
         margin-top: 30px;
