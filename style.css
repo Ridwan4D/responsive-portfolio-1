@@ -1,0 +1,270 @@
+/* common styles start */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.primary-color {
+    color: #FD6E0A;
+}
+
+.primary-btn {
+    background: #FD6E0A;
+    border-radius: 5px;
+    border: 0;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 18px 35px;
+    cursor: pointer;
+}
+
+.sec-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.sec-description {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.dark-2 {
+    color: #474747;
+}
+
+/* common styles end */
+
+/* header style start here */
+.header {
+    background-color: #FFF8F3;
+    background-image: url("./images/header_bg.png"),url("./images/developer.png");
+    background-repeat: no-repeat;
+    background-position: bottom right, top left;
+}
+
+/* nav styles start here */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+}
+
+.nav-title {
+    color: #181818;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav li>a {
+    text-decoration: none;
+    color: #474747;
+}
+
+/* nav style end here */
+
+/* banner start here */
+.banner {
+    padding: 30px 30px 0 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-content {
+    max-width: 550px;
+}
+
+.banner .profile-picture {
+    height: 600px;
+    width: 500px;
+}
+
+.banner-h3 {
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+}
+
+.banner-h1 {
+    font-size: 85px;
+    font-weight: 700;
+    margin: 5px 0 20px;
+}
+
+.banner-description {
+    margin: 0;
+}
+
+.banner button {
+    margin: 30px 30px 0 0;
+}
+
+/* banner style end here */
+/* header style end here*/
+
+/* main style part start here */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+main section {
+    margin-top: 130px;
+}
+
+/* about section start here */
+.about {
+    padding: 130px 150px;
+    border-radius: 10px;
+    background: #FFF8F3;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.about-info .info-title {
+    margin: 0;
+    padding: 0;
+}
+
+.about-info .info-description {
+    margin: 0;
+    padding: 0;
+}
+
+/* what i do section start */
+.to-do {
+    margin-bottom: 130px;
+}
+
+#todo-description {
+    padding: 0 150px;
+    color: #757575;
+}
+
+.skill-container {
+    display: flex;
+    justify-content: space-around;
+    /* gap: 25px; */
+}
+
+.card {
+    height: auto;
+    width: auto;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+    margin-right: 25px;
+}
+
+/* what i do section end */
+
+/* resume section start */
+.resume-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    padding: 10px 20px;
+}
+
+.col-title {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+
+.resume-info h4 {
+    margin: 0;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.resume-info .year {
+    margin: 5px 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.resume-description,
+.contace-description {
+    /* contact description here*/
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.resume-info div {
+    margin: 15px 0;
+}
+
+.resume .download-cv {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* resume section end here */
+
+/* footer part start here */
+.footer {
+    background-color: #FFF8F3;
+    padding: 130px 150px;
+    margin-top: 130px;
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.contacts .title {
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.contacts input{
+    width: 100%;
+    padding: 15px 30px;
+    margin-top: 11px;
+    border-radius: 5px;
+    border: 0;
+    background: #FFF;
+    display: block;
+}
+.contacts textarea{
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 15px 30px;
+    margin-top: 11px;
+    border-radius: 5px;
+    border: 0;
+}
+.icon-div img{
+    margin: 10px;
+}
