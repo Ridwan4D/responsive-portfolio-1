@@ -320,6 +320,8 @@ main section {
 
     #todo-description {
         padding: 0 10px;
+    }
+    .card-description,#todo-description{
         font-size: 15px;
     }
     .footer{
