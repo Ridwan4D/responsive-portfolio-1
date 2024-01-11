@@ -292,12 +292,12 @@ main section {
         font-size: 27px;
         margin: 0;
     }
-
-    .resume-container {
-        flex-direction: column;
+    .about {
+        padding: 50px 10px;
+    }
+    .resume-container{
         gap: 5px;
     }
-
     .resume-info h4 {
         font-size: 18px;
     }
@@ -314,7 +314,7 @@ main section {
         font-size: 25px;
     }
 
-    .skill-container,.contacts {
+    .skill-container,.resume-container,.contacts,.about-info-container {
         flex-direction: column;
     }
 
