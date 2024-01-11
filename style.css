@@ -305,7 +305,7 @@ main section {
         font-size: 12px;
     }
 
-    .resume .col-title {
+    .resume .col-title,.contacts .title{
         font-size: 25px;
     }
 
@@ -321,12 +321,17 @@ main section {
     #todo-description {
         padding: 0 10px;
     }
-    .card-description,#todo-description{
+    .sec-description,.card-description,#todo-description,.contact-description{
         font-size: 13px;
     }
     .footer{
         margin-top: 30px;
         padding:10px;
+    }
+    .icon-div img {
+        margin: 0px;
+        width: 18px;
+        padding-left: 5px;
     }
     .contacts{
         gap: 0;
