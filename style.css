@@ -314,7 +314,7 @@ main section {
         font-size: 25px;
     }
 
-    .skill-container {
+    .skill-container,.contacts {
         flex-direction: column;
     }
 
@@ -325,5 +325,14 @@ main section {
 
     #todo-description {
         padding: 0 10px;
+    }
+    .footer{
+        padding:50px 10px;
+    }
+    .contacts{
+        gap: 0;
+    }
+    .message{
+        width: 80%;
     }
 }
