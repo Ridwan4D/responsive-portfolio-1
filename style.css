@@ -278,14 +278,41 @@ main section {
     .primary-btn {
         font-size: 12px;
         font-weight: 600;
-        padding: 11px 8px;
+        padding: 11px 60px;
     }
     main section{
         margin-top: 50px;
     }
+    nav,nav > ul,.sec-title{
+        margin: 0;
+    }
     .sec-title {
         font-size: 27px;
-        margin: 0;
+    }
+    .header{
+        background-image:none;
+    }
+    .nav-title{
+        margin-bottom: 0;
+    }
+    nav li{
+        margin-top: 5px;
+    }
+    .banner{
+        padding: 0;
+    }
+    .banner .profile-picture {
+        width: 100%;
+        height: 60%;
+    }
+    .banner h1{
+        font-size: 40px;
+    }
+    .banner h3{
+        font-size: 35px;
+    }
+    .banner button {
+        margin-top: 10px;
     }
     .about {
         padding: 50px 10px;
@@ -309,7 +336,7 @@ main section {
         font-size: 25px;
     }
 
-    .skill-container,.resume-container,.contacts,.about-info-container {
+    .banner,nav,nav>ul,.skill-container,.resume-container,.contacts,.about-info-container{
         flex-direction: column;
     }
 
@@ -321,7 +348,7 @@ main section {
     #todo-description {
         padding: 0 10px;
     }
-    .sec-description,.card-description,#todo-description,.contact-description{
+    .banner-description,.sec-description,.card-description,#todo-description,.contact-description{
         font-size: 13px;
     }
     .footer{
